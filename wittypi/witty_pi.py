@@ -6,7 +6,7 @@ from calendar import monthrange
 
 
 class WittyPi:
-    required_files = ["wittypi.sh", "utilities.sh", "daemon.sh"]
+    required_files = ["wittyPi.sh", "utilities.sh", "daemon.sh"]
 
     def __init__(self, path) -> None:
         self.path = path
